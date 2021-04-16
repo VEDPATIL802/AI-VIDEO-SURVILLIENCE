@@ -1,0 +1,84 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    box-shadow: 5px 5px 5px darkorange;
+    width: 100%;
+    margin: 0;
+    font-size: 23px;
+    color: deeppink;
+    background-color: gold;
+}
+
+.heading:hover {
+    background-color: greenyellow;
+    color: indigo;
+    box-shadow: 5px 5px 5px crimson;
+    font-size: 24px;
+    font-style: italic;
+}
+
+#start {
+    box-shadow: 5px 5px 5px royalblue;
+    font-size: 20px;
+    color: slateblue;
+    background-color: springgreen;
+}
+
+#start:hover {
+    box-shadow: 5px 5px 5px lawngreen;
+    color: red;
+    background-color: royalblue;
+    font-size: 21px;
+    font-style: italic;
+}
+
+#number_of_objects {
+    box-shadow: 5px 5px 5px fuchsia;
+    color: greenyellow;
+    background-color: hotpink;
+    font-size: 19px;
+    font-style: italic;
+}
+
+#status {
+    color: lawngreen;
+    background-color: magenta;
+    box-shadow: 5px 5px 5px orangered;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.copy_right_footer {
+    box-shadow: -5px -5px 5px darkorchid;
+    font-size: 20px;
+    color: blue;
+    bottom: 0;
+    width: 100%;
+    background-color: chartreuse;
+    line-height: 3;
+    text-align: center;
+    font-style: italic;
+    position: fixed;
+}
+
+.copy_right_footer:hover {
+    box-shadow: -5px -5px 5px red;
+    font-size: 20px;
+    color: fuchsia;
+    bottom: 0;
+    width: 100%;
+    background-color: chocolate;
+    line-height: 3;
+    text-align: center;
+    font-style: italic;
+    position: fixed;
+}
+
+canvas {
+    box-shadow: 5px 5px 5px darkblue;
+    border-radius: 10px;
+    border: 2px solid slateblue;
+    margin-top: 100px;
+}
